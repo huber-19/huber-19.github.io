@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+body{
+    background: url(https://www.10wallpaper.com/wallpaper/1366x768/1309/outside_orbit-Universe_HD_Wallpaper_1366x768.jpg) #000;
+    background-size: cover;
+    color: #fff;
+    font-size: 16px;
+}
+.wrap{
+    width: 90%;
+    max-width: 1000%;
+    margin: auto;
+    padding: 10px;
+}
+.widget{
+    width: 60%;
+    margin: 2em;
+    margin-left: 250px;
+}
+.widget p {
+display: inline-block;
+line-height: 1em;
+}
+.fecha{
+    font-family: oswald, arial;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 0.3125 rem;
+    background: rgba(61, 56, 90, 0.5);
+    padding: 20px;
+    width: 100%;
+}
+.reloj{
+    font-family: oswald, arial;
+    width: 100%;
+    padding: 20px;
+    font-size: 4em;
+    text-align: center;
+    background: rgba(61, 56, 90, 0.5);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.reloj .caja-segundos {
+    display: inline-block;
+
+}
+
+.reloj .segundos,
+.reloj .ampm{
+    font-size: 2rem;
+    display: block;
+}
